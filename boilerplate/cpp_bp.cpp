@@ -3,7 +3,8 @@ using namespace std;
 #define ll long long
 #define vi vector<int>
 #define vl vector<ll>
-#define get(a) ll a;cin >> a;
+
+#define get(a) ll a;cin>>a;
 #define psb push_back
 #define srt(a) sort(a.begin(),a.end());
 
@@ -27,6 +28,7 @@ inline vl getv(int n)
 int main()
 {
     cout << "a" << endl;
+    get(d);
     vl a = getv(5);
     srt(a);
     printv(a);
